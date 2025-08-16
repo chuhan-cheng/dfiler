@@ -30,7 +30,7 @@ run-server:
 	go run $(SERVER_MAIN) -config $(CONFIG_FILE)
 
 run-mygui:
-	go run $(MYGUI_MAIN) -config $(CONFIG_FILE)
+	go run $(MYGUI_SRCS) -config $(CONFIG_FILE)
 
 # 清除編譯產物
 .PHONY: clean
